@@ -8,10 +8,10 @@ const config = {
     kit: {
         adapter: adapter({
 			fallback: 'index.html'
-		  }),
-        prerender: {
-            default: true
-        }
+		  }) //,
+        // prerender: {
+        //     default: true
+        // }
     }
 };
 
